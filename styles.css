@@ -88,6 +88,14 @@ section {
   padding-bottom: 1.25rem;
 }
 
-.card-faq-toggle {
+.toggle-style {
   display: none;
+}
+
+.minus {
+  display: none;
+}
+
+.minus-block {
+  display: block;
 }
