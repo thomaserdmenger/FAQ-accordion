@@ -8,7 +8,6 @@ const expandFaq = (e) => {
   const iconPlus = container.querySelector('.plus');
   iconPlus.classList.toggle('toggle-style');
   const iconMinus = container.querySelector('.minus');
-  console.log(iconMinus);
   iconMinus.classList.toggle('minus-block');
 };
 

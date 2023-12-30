@@ -31,7 +31,6 @@ section {
 }
 
 .card {
-  /* min-height: 60vh; */
   background-color: white;
   margin: 0 8vw;
   border-radius: 0.5rem;
@@ -65,7 +64,6 @@ section {
 .card-faq-container {
   margin-bottom: 1.25rem;
   border-bottom: 1px solid var(--color-pink);
-  /* padding-bottom: 1.25rem; */
 }
 
 .card-faq-container:last-of-type {
@@ -98,4 +96,48 @@ section {
 
 .minus-block {
   display: block;
+}
+
+/* ! BREAKPOINT kleiner ansetzen */
+@media only screen and (min-width: 1200px) {
+  section {
+    background: url(./assets/images/background-pattern-desktop.svg) no-repeat
+      top;
+    background-color: var(--color-pink);
+    background-size: contain;
+  }
+
+  .card {
+    margin: 0 28vw;
+    padding: 2.5rem;
+  }
+
+  .card-logo {
+    margin-bottom: 2.1875rem;
+  }
+
+  .card h1 {
+    font-size: 3.5rem;
+  }
+
+  .card img {
+    height: 40px;
+  }
+
+  .card-faq-header {
+    margin-bottom: 1.7813rem;
+  }
+
+  .card-faq-container {
+    margin-bottom: 1.5rem;
+  }
+
+  .card-faq-container h2 {
+    font-size: 1.125rem;
+  }
+
+  .card-faq-container p {
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+  }
 }
